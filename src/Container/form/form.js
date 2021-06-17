@@ -11,7 +11,7 @@ const validationSchema = yup.object({
   name: yup
     .string("Enter your name")
     .trim()
-    .matches(/^[a-zA-Z]+$/, "Name can only contain alphabets")
+    .matches(/^[a-zA-Z ]+$/, "Name can only contain alphabets")
     .min(4, "Name should be of minimum 4 charachters")
     .max(20, "Name shuld not be exceeded to 20 characters")
     .required("Name is required"),
