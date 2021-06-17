@@ -1,7 +1,7 @@
 
   const styles = {
      paperContainer: {
-         padding : '20px 10px',
+         padding : '40px 10px',
          height : "50vh",
          borderRadius : "44px",
          background : "#ecf0f1",

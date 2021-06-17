@@ -3,7 +3,7 @@ const styles = {
         width : "fit-content",
         background : "#2c3e50",
         color : "white",
-        margin: "0 auto",
+        margin: "20px auto",
         padding:"10px 40px",
         borderRadius: "44px",
         "&:hover" : {
